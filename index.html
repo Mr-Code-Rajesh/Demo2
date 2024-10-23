@@ -2,10 +2,274 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Single Page Web</title>
+    <link rel="stylesheet" href="./css/simple website.css">
+    <link rel="stylesheet" href="./animation/scrollAnimate.css">
 </head>
 <body>
-    <h2> Hello !</h2>
+    <section id="home">
+        <header>
+            <a href="#"><img src="./images/logo.png"></a>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li class="center"><a href="#service">service</a></li>
+                <li><a href="#product">product</a></li>
+                <li><a href="#price">price</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div id="search">
+            <input type="text" placeholder="search letter here" id="sec">
+            <a href="#sec"> <img src="./images/search.png"> </a>
+            </div>
+        </header>
+
+        <div class="home-box">
+            <div class="my fade-animate-left">
+                <h1>mr.sakthi official coding lover</h1>
+                <p class="para">i love coding its my happiness</p>
+                <p class="para-2">Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.<br> Voluptate 
+                    libero ab doloremque iure soluta</p>
+            </div>
+            <div class="user-form fade-animate-right">
+                <h2>user login</h2>
+                <form>
+                <div class="form-group" >
+                    <label for="name">User Name</label>
+                    <input type="text" class="home-in" placeholder="User Name">
+                </div>
+                <div class="form-group">
+                    <label for="password" >Password</label>
+                    <input type="password" class="home-in" placeholder="Password"> 
+                </div>
+                <button class="btn">Login</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+             <!-- HOME page end-->
+
+             <!-- #sevices page start-->
+    <section id="service">
+        <div id="service-box">
+           <div class="service-main">
+            <div class="service-content fade-animate-down">
+                <h1>Who we are </h1>
+                <p class="para1 ">Lorem ipsum, dolor sit amet . Veniam quam aliquid iste 
+                    cupiditate at impedit nisi!quibusda quis voluptate.
+               </p>
+               <p class="para2 ">Lorem ipsum dolor sit amet  Dignissimos<br> explicabo,
+                 dolorem,  fugiat assumenda cum dolore repellendus beatae eveniet repellat, accusantium 
+                 pariatur Maxime, molestias.
+                unde in eos tempora.</p>
+                <button class="s-btn"><a href="#">Read more</a></button>
+            </div>
+
+            <div class="boxes fade-animate-down">
+                <div class="service-img">
+                    <img src="./images/layers.png">
+                </div>
+                    <h2><span>design</span> </h2>
+                    <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae nemo et fuga aspernatur dolorum doloribus perferendis adipisci repellendus, nobis distinctio ea.</p>
+            </div>
+
+            <div class="boxes fade-animate-down">
+                <div class="service-img">
+                    <img src="./images/laptop.png">
+                </div>
+                    <h2> development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae nemo et fuga aspernatur dolorum doloribus perferendis adipisci repellendus, nobis distinctio ea.</p>
+            </div>
+
+            <div class="boxes fade-animate-down">
+                <div class="service-img">
+                    <img src="./images/photographer.png">
+                </div>
+                    <h2> photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae nemo et fuga aspernatur dolorum doloribus perferendis adipisci repellendus, nobis distinctio ea.</p>
+            </div>  
+           </div>
+      
+        </div>
+
+    </section>
+            <!-- service page end-->
+
+
+    <section id="product">
+        <h1 class="fade-animate-down">menu</h1>
+        <p class="pro-p fade-animate-down">Lorem ipsum dolor sit is the one of best product amet consectetur adipisicing elit. Libero vero voluptatem <br> sapiente itaque perspiciatis dolorum,
+             nobis reiciendis officia? Saepe,  is not passible non<br> reprehenderit velit libero aliquam?</p>
+        <div class="product-box">
+            <div class="cards fade-animate-left">
+                <div class="card-img">
+                    <img src="./images/piza.jpg" >
+                </div>
+                <div class="product-content">
+                    <h2> original</h2>
+                    <p class="padi"> tomoto sauce,mozzarella & <br> orange</p>
+                    <h3>$18.00</h3>
+                    <button class="pro-btn"><a href="#">add to cart</a></button>
+                </div>
+            </div>
+
+            <div class="cards fade-animate-right">
+                <div class="card-img">
+                    <img src="./images/salami.jpg" >
+                </div>
+                <div class="product-content">
+                    <h2> salami</h2>
+                    <p class="padi"> tomoto sauce,mozzarella & <br> mild salami</p>
+                    <h3>$15.00</h3>
+                    <button class="pro-btn"><a href="#">add to cart</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-box">
+            <div class="cards fade-animate-left">
+                <div class="card-img">
+                    <img src="./images/chiken.jpg" >
+                </div>
+                <div class="product-content">
+                    <h2> chiken</h2>
+                    <p class="padi"> tomoto sauce,mozzarella & <br> chikken recipes</p>
+                    <h3>$25.00</h3>
+                    <button class="pro-btn"><a href="#">add to cart</a></button>
+                </div>
+            </div>
+
+            <div class="cards fade-animate-right">
+                <div class="card-img">
+                    <img src="./images/hawain.jpg" >
+                </div>
+                <div class="product-content">
+                    <h2> hawaiian </h2>
+                    <p class="padi"> tomoto sauce,mozzarella & <br> ham & pineapple</p>
+                    <h3>$16.00</h3>
+                    <button class="pro-btn"><a href="#">add to cart</a></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+             <!-- product page end-->
+
+
+
+           <!-- # price page  content start -->
+
+   <section id="price">
+       <h1 class="fade-animate-down">Plans & pricing</h1>
+       <p class="price-p fade-animate-down">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam rem, nihil atque repellendus <br> nemo eveniet eius. Sequi, corporis visitor</p>
+      <div id="price-main">
+        
+       <div class="price-box fade-animate-left">
+        <div class="price-content1 price-content">
+          <h4>hatchling plan</h4>
+          <h2> $29 </h2>
+          <h5>per month</h5>
+        </div>
+        <div class="price-list">
+            <ul>
+                <li><span class="tick"></span>Unlimited Support</li>
+                <li><span class="tick"></span>5GB Server Space</li>
+                <li><span class="tick"></span>2 User per Project</li>
+                <li><span class="wrong"></span>Email integration</li>
+                <li><span class="wrong"></span>Unlimited Download</li>
+            </ul>
+            <button class="pr-btn"> choose plan</button>
+        </div>  
+       </div>
+
+       <div class="price-box fade-animate-down">
+        <div class="price-content2 price-content">
+            <h4>baby plan</h4>
+            <h2> $49 </h2>
+            <h5>per month</h5>
+          </div>
+          <div class="price-list">
+              <ul>
+                  <li><span class="tick"></span>Unlimited Support</li>
+                  <li><span class="tick"></span>10GB Server Space</li>
+                  <li><span class="tick"></span>5 User per Project</li>
+                  <li><span class="tick"></span>Email integration</li>
+                  <li><span class="wrong"></span>Unlimited Download</li>
+              </ul>
+              <button class="pr-btn"> choose plan</button>
+          </div> 
+       </div>
+
+       <div class="price-box fade-animate-right">
+        <div class="price-content3 price-content">
+            <h4>bussiness plan</h4>
+            <h2> $99 </h2>
+            <h5>per month</h5>
+          </div>
+          <div class="price-list">
+              <ul>
+                  <li><span class="tick"></span>Unlimited Support</li>
+                  <li><span class="tick"></span>25GB Server Space</li>
+                  <li><span class="tick"></span>10 User per Project</li>
+                  <li><span class="tick"></span>Email integration</li>
+                  <li><span class="tick"></span> Unlimited Download</li>
+              </ul>
+              <button class="pr-btn"> choose plan</button>
+          </div> 
+       </div> 
+      </div>
+
+    </section>
+             <!-- price page end-->
+
+
+             <!-- # contact page start-->
+
+    <section id="contact">
+        <div id="form-box">
+            <form >
+                <div class="top-img">
+                 <img src="./images/contactimg.png">
+                </div> 
+                <div class="regi">
+                <h2 class="reg-1"> register</h2>
+                </div>
+                <div class="facebook">
+                    <a href=""><img src="./images/facebook img.png" ></a>
+                    <a href=""><img src="./images/google_img.png" ></a>
+                    <a href=""><img src="./images/twitter_circled.png" ></a>
+                    <p class="use"> or use your email address</p>
+                </div>
+                <div class="user-get">
+                    <input type="text"     placeholder="First Name" class="submit" required> <br>
+                    <input type="email"    placeholder="Email" class="submit" required> <br>
+                    <input type="password" placeholder="Password" class="submit" required> <br>
+                    <input type="password" placeholder="Confirm Password" class="submit" required> <br>
+                    <input type="submit"   value="create account" class="account">
+                </div>
+                <p>Already have an account? <a href="#" class="sig">Sign In</a></p>
+            </form>
+        
+        
+         
+        </div>
+        
+
+    </section>
+
+    <section class="copy-right">
+        <div class="footer">
+            <h4>&copy; Copy right from Code Sakthi || 2023</h4>
+        </div>
+    </section>
+
+    <!--- contact page end-->
+
+    <script src="./animation/scrollanimate.js"></script>
+    
 </body>
 </html>
